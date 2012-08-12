@@ -1,29 +1,38 @@
-# Ansi::Showcase
+AnsiShowcase
+============
 
-TODO: Write a gem description
+A gem (both in cuteness and size) for easy remembering and test of the [Term::ANSIColor][term-ansicolor] methods used to print ANSI escape sequences to the terminal and get a nicely colored and formatted output.
 
-## Installation
+[term-ansicolor]: http://github.com/flori/term-ansicolor
 
-Add this line to your application's Gemfile:
+Installation
+------------
 
-    gem 'ansi-showcase'
+    gem install ansi-showcase
 
-And then execute:
+Usage
+-----
 
-    $ bundle
+Just type:
 
-Or install it yourself as:
+    ansi-showcase
 
-    $ gem install ansi-showcase
+and you'll see roughly.
 
-## Usage
+License
+--------
 
-TODO: Write usage instructions here
+Copyright (C) 2012 Xavier Via
 
-## Contributing
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
 
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Added some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.

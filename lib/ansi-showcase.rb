@@ -18,7 +18,7 @@ module AnsiShowcase
       [ :cyan, :intense_cyan, [ :bold, :cyan] ],
       [ :green, :intense_green, [ :bold, :green] ],
       [ :yellow, :intense_yellow, [ :bold, :yellow] ],
-      [ :red, :intense_red, [ :bold, :red] ]
+      [ :red, :intense_red, [ :bold, :red ] ]
     ] 
 
     EFFECTS = [
