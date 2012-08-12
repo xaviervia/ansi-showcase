@@ -17,7 +17,7 @@ Just type:
 
     ansi-showcase
 
-and you'll see roughly.
+and you'll get what you payed for.
 
 License
 --------
