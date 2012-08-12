@@ -1,5 +1,5 @@
-AnsiShowcase
-============
+ANSI Showcase
+=============
 
 A gem (both in cuteness and size) for easy remembering and test of the [Term::ANSIColor][term-ansicolor] methods used to print ANSI escape sequences to the terminal and get a nicely colored and formatted output.
 
