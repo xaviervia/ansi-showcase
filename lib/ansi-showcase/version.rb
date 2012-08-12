@@ -1,5 +1,3 @@
-module Ansi
-  module Showcase
-    VERSION = "0.0.1"
-  end
+class AnsiShowcase < Thor
+  VERSION = "0.0.1"
 end

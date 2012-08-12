@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+$LOAD_PATH << File.expand_path("../../lib", __FILE__)
+require "ansi-showcase"
+
+unless ARGV.empty?
+ AnsiShowcase.start
+else
+ AnsiShowcase.new.all
+end
