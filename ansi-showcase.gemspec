@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["xavierviacanel@gmail.com"]
   gem.description   = %q{A little command line utility that showcases Term::ANSIColor}
   gem.summary       = %q{A little command line utility that showcases Term::ANSIColor}
-  gem.homepage      = ""
+  gem.homepage      = "http://github.com/xaviervia/ansi-showcase"
 
   gem.add_dependency "term-ansicolor"
   gem.add_dependency "thor"
