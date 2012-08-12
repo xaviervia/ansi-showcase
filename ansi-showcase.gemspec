@@ -2,10 +2,10 @@
 require File.expand_path('../lib/ansi-showcase/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.authors       = ["TODO: Write your name"]
-  gem.email         = ["TODO: Write your email address"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.authors       = ["Xavier Via"]
+  gem.email         = ["xavierviacanel@gmail.com"]
+  gem.description   = %q{A little command line utility that showcases Term::ANSIColor}
+  gem.summary       = %q{A little command line utility that showcases Term::ANSIColor}
   gem.homepage      = ""
 
   gem.add_dependency "term-ansicolor"
@@ -16,5 +16,5 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.name          = "ansi-showcase"
   gem.require_paths = ["lib"]
-  gem.version       = Ansi::Showcase::VERSION
+  gem.version       = AnsiShowcase::VERSION
 end
