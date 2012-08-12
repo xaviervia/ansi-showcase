@@ -3,7 +3,7 @@ $LOAD_PATH << File.expand_path("../../lib", __FILE__)
 require "ansi-showcase"
 
 unless ARGV.empty?
- AnsiShowcase.start
+ AnsiShowcase::Task.start
 else
- AnsiShowcase.new.all
+ AnsiShowcase::Task.new.all
 end
